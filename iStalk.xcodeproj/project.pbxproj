@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		05C10FF21C0C3A49007F50E1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 05C10FF11C0C3A49007F50E1 /* main.m */; };
+		05C10FF51C0C3A49007F50E1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 05C10FF41C0C3A49007F50E1 /* AppDelegate.m */; };
+		05C10FF81C0C3A49007F50E1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 05C10FF71C0C3A49007F50E1 /* ViewController.m */; };
+		05C10FFB1C0C3A49007F50E1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05C10FF91C0C3A49007F50E1 /* Main.storyboard */; };
+		05C10FFD1C0C3A49007F50E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05C10FFC1C0C3A49007F50E1 /* Assets.xcassets */; };
+		05C110001C0C3A49007F50E1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05C10FFE1C0C3A49007F50E1 /* LaunchScreen.storyboard */; };
+		05C1100B1C0C3A49007F50E1 /* iStalkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 05C1100A1C0C3A49007F50E1 /* iStalkTests.m */; };
+		05C110161C0C3A49007F50E1 /* iStalkUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 05C110151C0C3A49007F50E1 /* iStalkUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		05C110071C0C3A49007F50E1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 05C10FE51C0C3A49007F50E1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 05C10FEC1C0C3A49007F50E1;
+			remoteInfo = iStalk;
+		};
+		05C110121C0C3A49007F50E1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 05C10FE51C0C3A49007F50E1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 05C10FEC1C0C3A49007F50E1;
+			remoteInfo = iStalk;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		05C10FED1C0C3A49007F50E1 /* iStalk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iStalk.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		05C10FF11C0C3A49007F50E1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		05C10FF31C0C3A49007F50E1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		05C10FF41C0C3A49007F50E1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		05C10FF61C0C3A49007F50E1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		05C10FF71C0C3A49007F50E1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		05C10FFA1C0C3A49007F50E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		05C10FFC1C0C3A49007F50E1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		05C10FFF1C0C3A49007F50E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		05C110011C0C3A49007F50E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		05C110061C0C3A49007F50E1 /* iStalkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iStalkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		05C1100A1C0C3A49007F50E1 /* iStalkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iStalkTests.m; sourceTree = "<group>"; };
+		05C1100C1C0C3A49007F50E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		05C110111C0C3A49007F50E1 /* iStalkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iStalkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		05C110151C0C3A49007F50E1 /* iStalkUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iStalkUITests.m; sourceTree = "<group>"; };
+		05C110171C0C3A49007F50E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		05C10FEA1C0C3A49007F50E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05C110031C0C3A49007F50E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05C1100E1C0C3A49007F50E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		05C10FE41C0C3A49007F50E1 = {
+			isa = PBXGroup;
+			children = (
+				05C10FEF1C0C3A49007F50E1 /* iStalk */,
+				05C110091C0C3A49007F50E1 /* iStalkTests */,
+				05C110141C0C3A49007F50E1 /* iStalkUITests */,
+				05C10FEE1C0C3A49007F50E1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		05C10FEE1C0C3A49007F50E1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				05C10FED1C0C3A49007F50E1 /* iStalk.app */,
+				05C110061C0C3A49007F50E1 /* iStalkTests.xctest */,
+				05C110111C0C3A49007F50E1 /* iStalkUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		05C10FEF1C0C3A49007F50E1 /* iStalk */ = {
+			isa = PBXGroup;
+			children = (
+				05C10FF31C0C3A49007F50E1 /* AppDelegate.h */,
+				05C10FF41C0C3A49007F50E1 /* AppDelegate.m */,
+				05C10FF61C0C3A49007F50E1 /* ViewController.h */,
+				05C10FF71C0C3A49007F50E1 /* ViewController.m */,
+				05C10FF91C0C3A49007F50E1 /* Main.storyboard */,
+				05C10FFC1C0C3A49007F50E1 /* Assets.xcassets */,
+				05C10FFE1C0C3A49007F50E1 /* LaunchScreen.storyboard */,
+				05C110011C0C3A49007F50E1 /* Info.plist */,
+				05C10FF01C0C3A49007F50E1 /* Supporting Files */,
+			);
+			path = iStalk;
+			sourceTree = "<group>";
+		};
+		05C10FF01C0C3A49007F50E1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				05C10FF11C0C3A49007F50E1 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		05C110091C0C3A49007F50E1 /* iStalkTests */ = {
+			isa = PBXGroup;
+			children = (
+				05C1100A1C0C3A49007F50E1 /* iStalkTests.m */,
+				05C1100C1C0C3A49007F50E1 /* Info.plist */,
+			);
+			path = iStalkTests;
+			sourceTree = "<group>";
+		};
+		05C110141C0C3A49007F50E1 /* iStalkUITests */ = {
+			isa = PBXGroup;
+			children = (
+				05C110151C0C3A49007F50E1 /* iStalkUITests.m */,
+				05C110171C0C3A49007F50E1 /* Info.plist */,
+			);
+			path = iStalkUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		05C10FEC1C0C3A49007F50E1 /* iStalk */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05C1101A1C0C3A49007F50E1 /* Build configuration list for PBXNativeTarget "iStalk" */;
+			buildPhases = (
+				05C10FE91C0C3A49007F50E1 /* Sources */,
+				05C10FEA1C0C3A49007F50E1 /* Frameworks */,
+				05C10FEB1C0C3A49007F50E1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iStalk;
+			productName = iStalk;
+			productReference = 05C10FED1C0C3A49007F50E1 /* iStalk.app */;
+			productType = "com.apple.product-type.application";
+		};
+		05C110051C0C3A49007F50E1 /* iStalkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05C1101D1C0C3A49007F50E1 /* Build configuration list for PBXNativeTarget "iStalkTests" */;
+			buildPhases = (
+				05C110021C0C3A49007F50E1 /* Sources */,
+				05C110031C0C3A49007F50E1 /* Frameworks */,
+				05C110041C0C3A49007F50E1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				05C110081C0C3A49007F50E1 /* PBXTargetDependency */,
+			);
+			name = iStalkTests;
+			productName = iStalkTests;
+			productReference = 05C110061C0C3A49007F50E1 /* iStalkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		05C110101C0C3A49007F50E1 /* iStalkUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05C110201C0C3A49007F50E1 /* Build configuration list for PBXNativeTarget "iStalkUITests" */;
+			buildPhases = (
+				05C1100D1C0C3A49007F50E1 /* Sources */,
+				05C1100E1C0C3A49007F50E1 /* Frameworks */,
+				05C1100F1C0C3A49007F50E1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				05C110131C0C3A49007F50E1 /* PBXTargetDependency */,
+			);
+			name = iStalkUITests;
+			productName = iStalkUITests;
+			productReference = 05C110111C0C3A49007F50E1 /* iStalkUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		05C10FE51C0C3A49007F50E1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Semih EKIZ";
+				TargetAttributes = {
+					05C10FEC1C0C3A49007F50E1 = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					05C110051C0C3A49007F50E1 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 05C10FEC1C0C3A49007F50E1;
+					};
+					05C110101C0C3A49007F50E1 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 05C10FEC1C0C3A49007F50E1;
+					};
+				};
+			};
+			buildConfigurationList = 05C10FE81C0C3A49007F50E1 /* Build configuration list for PBXProject "iStalk" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 05C10FE41C0C3A49007F50E1;
+			productRefGroup = 05C10FEE1C0C3A49007F50E1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				05C10FEC1C0C3A49007F50E1 /* iStalk */,
+				05C110051C0C3A49007F50E1 /* iStalkTests */,
+				05C110101C0C3A49007F50E1 /* iStalkUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		05C10FEB1C0C3A49007F50E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05C110001C0C3A49007F50E1 /* LaunchScreen.storyboard in Resources */,
+				05C10FFD1C0C3A49007F50E1 /* Assets.xcassets in Resources */,
+				05C10FFB1C0C3A49007F50E1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05C110041C0C3A49007F50E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05C1100F1C0C3A49007F50E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		05C10FE91C0C3A49007F50E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05C10FF81C0C3A49007F50E1 /* ViewController.m in Sources */,
+				05C10FF51C0C3A49007F50E1 /* AppDelegate.m in Sources */,
+				05C10FF21C0C3A49007F50E1 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05C110021C0C3A49007F50E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05C1100B1C0C3A49007F50E1 /* iStalkTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05C1100D1C0C3A49007F50E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05C110161C0C3A49007F50E1 /* iStalkUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		05C110081C0C3A49007F50E1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 05C10FEC1C0C3A49007F50E1 /* iStalk */;
+			targetProxy = 05C110071C0C3A49007F50E1 /* PBXContainerItemProxy */;
+		};
+		05C110131C0C3A49007F50E1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 05C10FEC1C0C3A49007F50E1 /* iStalk */;
+			targetProxy = 05C110121C0C3A49007F50E1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		05C10FF91C0C3A49007F50E1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				05C10FFA1C0C3A49007F50E1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		05C10FFE1C0C3A49007F50E1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				05C10FFF1C0C3A49007F50E1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		05C110181C0C3A49007F50E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		05C110191C0C3A49007F50E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		05C1101B1C0C3A49007F50E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = iStalk/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = co.semihekiz.iStalk;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		05C1101C1C0C3A49007F50E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = iStalk/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = co.semihekiz.iStalk;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		05C1101E1C0C3A49007F50E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = iStalkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = co.semihekiz.iStalkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iStalk.app/iStalk";
+			};
+			name = Debug;
+		};
+		05C1101F1C0C3A49007F50E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = iStalkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = co.semihekiz.iStalkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iStalk.app/iStalk";
+			};
+			name = Release;
+		};
+		05C110211C0C3A49007F50E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = iStalkUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = co.semihekiz.iStalkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = iStalk;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		05C110221C0C3A49007F50E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = iStalkUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = co.semihekiz.iStalkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = iStalk;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		05C10FE81C0C3A49007F50E1 /* Build configuration list for PBXProject "iStalk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05C110181C0C3A49007F50E1 /* Debug */,
+				05C110191C0C3A49007F50E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		05C1101A1C0C3A49007F50E1 /* Build configuration list for PBXNativeTarget "iStalk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05C1101B1C0C3A49007F50E1 /* Debug */,
+				05C1101C1C0C3A49007F50E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		05C1101D1C0C3A49007F50E1 /* Build configuration list for PBXNativeTarget "iStalkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05C1101E1C0C3A49007F50E1 /* Debug */,
+				05C1101F1C0C3A49007F50E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		05C110201C0C3A49007F50E1 /* Build configuration list for PBXNativeTarget "iStalkUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05C110211C0C3A49007F50E1 /* Debug */,
+				05C110221C0C3A49007F50E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 05C10FE51C0C3A49007F50E1 /* Project object */;
+}
