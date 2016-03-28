@@ -25,6 +25,9 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+  
+    //semihekiz
+    
     [Parse setApplicationId:@"KabAcqrSuoaFZZbPAbxZog2JFXlve3QXHeMxZljm"
                   clientKey:@"QHXbhgUjzEL0aZtaZMfVJO6rfT4Iz8UkOwPCeR7n"];
     
