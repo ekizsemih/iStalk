@@ -25,7 +25,7 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    [Parse setApplicationId:@"KabAcqrSuoaFZZbPAbxZog2JFXlve3QXHeMxZljm"
+    //[Parse setApplicationId:@"KabAcqrSuoaFZZbPAbxZog2JFXlve3QXHeMxZljm"
                   clientKey:@"QHXbhgUjzEL0aZtaZMfVJO6rfT4Iz8UkOwPCeR7n"];
     
     [Flurry startSession:@"HDBRYMQCXXBZDX5SY3PS"];
