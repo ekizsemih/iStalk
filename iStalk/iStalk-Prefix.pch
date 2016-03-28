@@ -1,0 +1,84 @@
+
+//
+//  Prefix header
+//
+//  The contents of this file are implicitly included at the beginning of every source file.
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_5_0
+#warning "This project uses features only available in iOS SDK 5.0 and later."
+#endif
+
+#ifdef __OBJC__
+
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import <SystemConfiguration/SystemConfiguration.h>
+#import <MobileCoreServices/MobileCoreServices.h>
+#import <CoreData/CoreData.h>
+#include <objc/runtime.h>
+#import "IGConnect.h"
+#import "AppDelegate.h"
+
+//#import <XCTest/XCTest.h>
+#import "Utils.h"
+#import "LoadingView.h"
+#import "Identity.h"
+#import "ProfileCell.h"
+#import "SettingCell.h"
+#import "InstagramCell.h"
+#import "ProfileEditCell.h"
+#import "TweetCell.h"
+#import "FoursquareCell.h"
+#import "UIView+Custom.h"
+#import "user.h"
+#import "TimeLine.h"
+#import "DataEntity.h"
+#import "WebViewVC.h"
+
+#if DEBUG 
+#define ENV 1
+#else
+#define ENV 0
+#endif
+
+#define COLOR_RGBA(r, g, b, a) [UIColor colorWithRed: (float)r/255.0 green: (float)g/255.0 blue: (float)b/255.0 alpha: a]
+#define COLOR_RGB(r, g, b) [UIColor colorWithRed: (float)r/255.0 green: (float)g/255.0 blue: (float)b/255.0 alpha: 1]
+#define StringFromData(x) [[NSString alloc] initWithData:(x) encoding:NSUTF8StringEncoding]
+#define tempUD [NSUserDefaults standardUserDefaults]
+
+#define SocialFacebookPermissions [[[NSBundle mainBundle] infoDictionary] objectForKey: @"CLFBPermissions"]
+#define SocialFacebookAppID [[[NSBundle mainBundle] infoDictionary] objectForKey: @"FacebookAppID"]
+
+#define SYSTEM_VERSION_EQUAL_TO(v)                  ([[[UIDevice currentDevice] systemVersion] compare:v options:NSNumericSearch] == NSOrderedSame)
+#define SYSTEM_VERSION_GREATER_THAN(v)              ([[[UIDevice currentDevice] systemVersion] compare:v options:NSNumericSearch] == NSOrderedDescending)
+#define SYSTEM_VERSION_GREATER_THAN_OR_EQUAL_TO(v)  ([[[UIDevice currentDevice] systemVersion] compare:v options:NSNumericSearch] != NSOrderedAscending)
+#define SYSTEM_VERSION_LESS_THAN(v)                 ([[[UIDevice currentDevice] systemVersion] compare:v options:NSNumericSearch] == NSOrderedAscending)
+#define SYSTEM_VERSION_LESS_THAN_OR_EQUAL_TO(v)     ([[[UIDevice currentDevice] systemVersion] compare:v options:NSNumericSearch] != NSOrderedDescending)
+
+
+#define appWebServiceBaseUrl @"http://semihekiz.co/local/istalk/service/"
+#import "UIImageView+AFNetworking.h"
+#import "AFNetworking.h"
+#import "Session.h"
+#import "Social/Social.h"
+#import <MessageUI/MessageUI.h>
+#import "STTwitter.h"
+#import "Flurry.h"
+#import "LeftMenuViewController.h"
+#import "RightMenuViewController.h"
+#import "LoginViewController.h"
+#import "JTSImageViewController.h"
+#import "JTSImageInfo.h"
+#import "MACircleProgressIndicator.h"
+#define servicetoken @"0Zu2c9U8uW5d29c9j3uF3kwiQoj9ONMS215w3skufCA1NG09y1B1F6Vrr77HfDm2Uv33R2A66jvIeDKBq18jZYgR7yRo85aI"
+#define foursquareClientId @"MPOOUWLK1CFCZSGVSYQEZ4GUJPUAQVWGTEHIXNNWDQY11ZNF"
+#define foursquareClientSecret @"J25EFQYRPAA0FD2T21U4GHPGQLP10WWYVYBECJ2DWNPEF3FW"
+#define foursquareRedirectUrl @"istalk://foursquare"
+
+#define twitterConsumerKey @"JZ7fATzUEtf2hrzZkSi6Xg"
+#define twitterConsumerSecretKey @"cM35YHJykpuONkYWqDSC3uQmSj5dOSMxwXy74uv840w"
+
+#endif

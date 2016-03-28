@@ -1,0 +1,109 @@
+//"ITLanguage" = "eng";
+//"ITSetting" = "Setting";
+//"ITSettingTitle_0" = "News Feed";
+//"ITSettingTitle_1" = "Add Person";
+//"ITSettingTitle_2" = "Edit People";
+//"ITSettingTitle_3" = "Logout";
+//"ITLoginField1" =  "Email Address or Username";
+//"ITLoginField2" =  "Password";
+//"ITLoginField3" =  "Login";
+//"ITLoginField4" =  "Connect with Facebook";
+//"ITLoginField5" = "Password?";
+//"ITLoginField6" = "Register to iStalk";
+//
+//"ITLoginDesc" = "Attığı her adımdan haberdar olacaksınız!";
+//"ITOk" = "Tamam";
+//"ITDismiss" = "İptal";
+//"ITYes" = "Evet";
+//"ITNo" = "Hayır";
+//
+//"ITAttention" = "Uyarı";
+//"ITAttention_Message_1" = "Lütfen bağlantınızı kontrol ediniz.";
+//"ITAttention_Message_2" = "Uygulamayı kullanmaya devam etmeniz için güncellemeniz gerekmektedir.";
+//"ITAttention_Message_3" = "Uygulama şuan servis dışıdır. Lütfen daha sonra tekrar deneyiniz.";
+//"ITAttention_Message_4" = "Lütfen email adresinizi veya kullanıcı adınızı giriniz.";
+//"ITAttention_Message_5" = "Lütfen şifrenizi giriniz.";
+//"ITAttention_Message_6" = "Girilen bilgileriniz hatalıdır.\nLütfen tekrar deneyiniz.";
+//
+//"ITError" = "Hata";
+//"ITError_Message" = "Hata Oluştu.";
+
+"ITLanguage" = "tr";
+"ITSetting" = "Ayarlar";
+
+"ITGenderMale" = "Erkek";
+"ITGenderFemale" = "Kadın";
+"ITGenderUnspecified" = "Belirtilmemiş";
+
+"ITSecond" = "%ldsn";
+"ITMinute" = "%ldd";
+"ITHour" = "%lds";
+"ITDay" = "%ldg";
+"ITWeek" = "%ldh";
+"ITAuthentication" = "Doğrulama";
+"ITRetweetDesc" = "tarafından retweetlendi.";
+
+"ITSettingTitle_0" = "Haber Kaynağı";
+"ITSettingTitle_1" = "Kişi Ekle";
+"ITSettingTitle_2" = "Kişi Düzenle";
+"ITSettingTitle_3" = "Çıkış";
+"ITLoginField1" =  "Email Adres veya Kullanıcı Adı";
+"ITLoginField2" =  "Şifre";
+"ITLoginField3" =  "Giriş";
+"ITLoginField4" =  "Facebook ile bağlan";
+"ITLoginDesc" = "Attığı her adımdan haberdar olacaksınız!";
+"ITLoginField5" = "Şifremi unuttum";
+"ITLoginField6" = "iStalk'a üye ol";
+"ITClose" = "Kapat";
+"ITOk" = "Tamam";
+"ITDismiss" = "İptal";
+"ITYes" = "Evet";
+"ITNo" = "Hayır";
+"ITUpdate" = "Güncelle";
+
+"ITRegister" = "Üye Ol";
+"ITUserName" = "Kullanıcı Adı";
+"ITNameSurname" = "Ad Soyad";
+"ITPasswd" = "Şifre";
+"ITEmail" = "E-Posta";
+"ITPrivacy" = "Gizlilik sözleşmesini okudum.";
+"ITTakePhoto" = "Fotoğraf Çek";
+"ITPickPhotoFromGallery" = "Galeriden Seç";
+"ITUsernameIsNotAvilable" = "Bu kullanıcı adı kullanılıyor.";
+"ITLeastCharacter" = "Lütfen en az 3 karakter giriniz.";
+"ITPrivacyAcception" = "Lütfen gizlilik sözleşmesini kabul ediniz.";
+"ITAllFieldsAreRequired" = "Lütfen bütün alanları doldurunuz.";
+"ITPhoto" = "Fotoğraf";
+"ITPrivacyOk" = "Kabul ediyorum";
+"ITPrivacyDismiss" = "Kabul etmiyorum";
+"ITLikesText" = "kişi senin gönderiyi begendi";
+"ITAnd" = "ve";
+"ITComment" = "yorum";
+"ITLikeDesc" = "Hiç beğeni bulunmamaktadır.";
+"ITCommentDesc" = "Hiç yorum bulunmamaktadır.";
+
+"ITSearchTitle" = "Kişi Ara";
+"ITProfileTitle" = "Profil Güncelle";
+"ITSearhText" = "Ad Soyad veya Kullanıcı Adı";
+
+"ITTakePhoto" = "Fotoğraf Çek";
+"ITPickPhotoFromGallery" = "Galeriden Seç";
+"ITChangePasswdTitle" = "Şifreyi Değiştir";
+
+"ITAttention" = "Uyarı";
+"ITSure" = "Emin misiniz?";
+"ITAttention_Message_1" = "Lütfen bağlantınızı kontrol ediniz.";
+"ITAttention_Message_2" = "Uygulamayı kullanmaya devam etmeniz için güncellemeniz gerekmektedir.";
+"ITAttention_Message_3" = "Uygulama şuan servis dışıdır. Lütfen daha sonra tekrar deneyiniz.";
+"ITAttention_Message_4" = "Lütfen email adresinizi veya kullanıcı adınızı giriniz.";
+"ITAttention_Message_5" = "Lütfen şifrenizi giriniz.";
+"ITAttention_Message_6" = "Girilen bilgileriniz hatalıdır.\nLütfen tekrar deneyiniz.";
+"ITAttention_Message_7" = "Lütfen arama kutusunu doldurunuz.";
+"ITAttention_Message_8" = "Kullanıcı bilgileri başarıyla kaydedilmiştir.";
+"ITAttention_Message_9" = "Kullanıcı bilgileri başarıyla güncellenmiştir.";
+"ITAttention_Message_10" = "Kayıt yapabilmek için en az 1 sonuç seçmelisiniz.";
+"ITAttention_Message_11" = "Aradığınız kişinin %@ hesabı bağlanmamıştır.";
+"ITAttention_Message_12" = "Aradığınız kişinin hesabı gizlidir.";
+
+"ITError" = "Hata";
+"ITError_Message" = "Hata Oluştu.";
