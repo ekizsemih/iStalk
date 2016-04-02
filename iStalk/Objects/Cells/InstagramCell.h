@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "KILabel.h"
+#import <KILabel/KILabel.h>
 #import "MACircleProgressIndicator.h"
 
 @interface InstagramCell : UITableViewCell

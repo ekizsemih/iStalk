@@ -49,6 +49,10 @@
 #ifdef DISTRIBUTIONRELEASE
     baseURL = @"Distributiobrelease";
 #endif
+    
+#ifdef SEMIHDEBUG
+    baseURL = @"semihdebug";
+#endif
     NSLog(@"%@",baseURL);
     
     

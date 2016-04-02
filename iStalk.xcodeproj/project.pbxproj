@@ -1126,6 +1126,95 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		053CDAD71CAFF23A00609832 /* SemihDebug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Semih EKIZ (386TPJ7J76)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Semih EKIZ (386TPJ7J76)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "7af158a5-d98e-453e-822b-851e27d1373d";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = SemihDebug;
+		};
+		053CDAD81CAFF23A00609832 /* SemihDebug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EEDB089AAE78F3C0AE17BA29 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Semih EKIZ (386TPJ7J76)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/semihekiz/Documents/FacebookSDK-1",
+					"$(PROJECT_DIR)/iStalk/Class/ParseLibrary",
+				);
+				GCC_PREFIX_HEADER = "iStalk/iStalk-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"SEMIHDEBUG=1",
+				);
+				INFOPLIST_FILE = iStalk/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = co.semihekiz.istalk;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "7af158a5-d98e-453e-822b-851e27d1373d";
+			};
+			name = SemihDebug;
+		};
+		053CDAD91CAFF23A00609832 /* SemihDebug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = iStalkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = co.semihekiz.istalkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iStalk.app/iStalk";
+			};
+			name = SemihDebug;
+		};
+		053CDADA1CAFF23A00609832 /* SemihDebug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = iStalkUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = co.semihekiz.istalkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = iStalk;
+				USES_XCTRUNNER = YES;
+			};
+			name = SemihDebug;
+		};
 		05999ECE1CA9B26C00ACE399 /* Distribution Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1399,6 +1488,7 @@
 			buildConfigurations = (
 				05C110181C0C3A49007F50E1 /* Debug */,
 				05C110191C0C3A49007F50E1 /* Release */,
+				053CDAD71CAFF23A00609832 /* SemihDebug */,
 				05999ECE1CA9B26C00ACE399 /* Distribution Release */,
 			);
 			defaultConfigurationIsVisible = 0;
@@ -1409,6 +1499,7 @@
 			buildConfigurations = (
 				05C1101B1C0C3A49007F50E1 /* Debug */,
 				05C1101C1C0C3A49007F50E1 /* Release */,
+				053CDAD81CAFF23A00609832 /* SemihDebug */,
 				05999ECF1CA9B26C00ACE399 /* Distribution Release */,
 			);
 			defaultConfigurationIsVisible = 0;
@@ -1419,6 +1510,7 @@
 			buildConfigurations = (
 				05C1101E1C0C3A49007F50E1 /* Debug */,
 				05C1101F1C0C3A49007F50E1 /* Release */,
+				053CDAD91CAFF23A00609832 /* SemihDebug */,
 				05999ED01CA9B26C00ACE399 /* Distribution Release */,
 			);
 			defaultConfigurationIsVisible = 0;
@@ -1429,6 +1521,7 @@
 			buildConfigurations = (
 				05C110211C0C3A49007F50E1 /* Debug */,
 				05C110221C0C3A49007F50E1 /* Release */,
+				053CDADA1CAFF23A00609832 /* SemihDebug */,
 				05999ED11CA9B26C00ACE399 /* Distribution Release */,
 			);
 			defaultConfigurationIsVisible = 0;
