@@ -107,21 +107,16 @@
     }
     
     id deviceToken = [Utils objForPrefKey:@"UserDeviceToken"];
-    if ([Utils stringIsEmpty:deviceToken]) {
+    if ([Utils stringIsEmpty:deviceToken])
         deviceToken = @"-";
-    }
+
     [self keyboardHide:nil];
-    
-    NSString *str = _textField1.text;
-    str = [str stringByReplacingOccurrencesOfString:@"(" withString:@""];
-    str = [str stringByReplacingOccurrencesOfString:@")" withString:@""];
-    str = [str stringByReplacingOccurrencesOfString:@" " withString:@""];
-    str = [str stringByReplacingOccurrencesOfString:@"-" withString:@""];
     
     id params = @{
                   @"servicetoken":servicetoken,
                   @"username":_textField1.text,
-                  @"password":_textField2.text
+                  @"password":_textField2.text,
+                  @"devicetoken":deviceToken
                   };
     
     [Utils callPostApi:login params:params integer:0 withType:0 progress:nil success:^(id responseObject) {

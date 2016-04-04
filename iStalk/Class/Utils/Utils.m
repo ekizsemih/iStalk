@@ -93,6 +93,7 @@ static const char * const apiPaths [] = {
 + (NSString*)decodeURLString:(NSString *) string {
     if (![string isKindOfClass: [NSString class]] || !string || [[NSNull null] isEqual: string])
         return @"";
+    else
     return (__bridge NSString *) CFURLCreateStringByReplacingPercentEscapesUsingEncoding(NULL,(__bridge CFStringRef) string,
                                                                                          CFSTR(""),
                                                                                          kCFStringEncodingUTF8);

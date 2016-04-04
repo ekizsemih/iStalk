@@ -152,7 +152,6 @@ NSString* const InstagramErrorDomain = @"instagramErrorDomain";
 
 - (id)formError:(NSInteger)code userInfo:(NSDictionary *) errorData {
     return [NSError errorWithDomain:InstagramErrorDomain code:code userInfo:errorData];
-    
 }
 
 - (id)parseJsonResponse:(NSData*)data error:(NSError**)error {
@@ -160,7 +159,7 @@ NSString* const InstagramErrorDomain = @"instagramErrorDomain";
     
     NSDictionary* meta = (NSDictionary*)[result objectForKey:@"meta"];
     if ( meta && [[meta objectForKey:@"code"] integerValue] == 200) {
-        //result = [result objectForKey:@"data"];
+        result = [result objectForKey:@"data"];
     } else {
         if (meta) {
             *error = [self formError:[[meta objectForKey:@"code"] integerValue]
