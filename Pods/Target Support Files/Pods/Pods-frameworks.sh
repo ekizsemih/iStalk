@@ -105,3 +105,25 @@ if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "Pods/Reachability.framework"
   install_framework "Pods/UzysCircularProgressPullToRefresh.framework"
 fi
+if [[ "$CONFIGURATION" == "SemihDebug" ]]; then
+  install_framework "Pods/ABOAuthCore.framework"
+  install_framework "Pods/AFNetworking.framework"
+  install_framework "Pods/ALAssetsLibrary_CustomPhotoAlbum.framework"
+  install_framework "Pods/CBZSplashView.framework"
+  install_framework "Pods/FXBlurView.framework"
+  install_framework "Pods/Flurry_iOS_SDK.framework"
+  install_framework "Pods/KILabel.framework"
+  install_framework "Pods/Reachability.framework"
+  install_framework "Pods/UzysCircularProgressPullToRefresh.framework"
+fi
+if [[ "$CONFIGURATION" == "Distribution Release" ]]; then
+  install_framework "Pods/ABOAuthCore.framework"
+  install_framework "Pods/AFNetworking.framework"
+  install_framework "Pods/ALAssetsLibrary_CustomPhotoAlbum.framework"
+  install_framework "Pods/CBZSplashView.framework"
+  install_framework "Pods/FXBlurView.framework"
+  install_framework "Pods/Flurry_iOS_SDK.framework"
+  install_framework "Pods/KILabel.framework"
+  install_framework "Pods/Reachability.framework"
+  install_framework "Pods/UzysCircularProgressPullToRefresh.framework"
+fi

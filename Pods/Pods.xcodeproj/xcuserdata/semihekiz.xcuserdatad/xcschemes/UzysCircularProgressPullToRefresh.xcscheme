@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = 'D8A82B168FE117426DBEF41C'
+               BlueprintIdentifier = '8E84DFF538B648BA52C3CC43'
                BlueprintName = 'UzysCircularProgressPullToRefresh'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'UzysCircularProgressPullToRefresh.framework'>

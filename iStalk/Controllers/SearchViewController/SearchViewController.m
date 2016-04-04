@@ -365,6 +365,7 @@ extern NSManagedObjectContext* getDBCtx();
                     break;
                 }
             }
+            NSLog(@"%@",resultText);
             return;
         }
     }
@@ -460,7 +461,7 @@ extern NSManagedObjectContext* getDBCtx();
         fsUser = [[dataArray objectAtIndex:tag] objectAtIndex:sender.tag];
         str = [NSString stringWithFormat:@"fsid = '%@'",fsUser.userId];
     }
-    else if (tag == 3){
+    else {
         insUser = [[dataArray objectAtIndex:tag] objectAtIndex:sender.tag];
         str = [NSString stringWithFormat:@"insid = '%@'",insUser.userId];
     }

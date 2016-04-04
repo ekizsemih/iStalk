@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = 'B87E04AA765A3A67F5CC7F95'
+               BlueprintIdentifier = 'E683B43A8088FAA745A48A02'
                BlueprintName = 'ALAssetsLibrary-CustomPhotoAlbum'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'ALAssetsLibrary_CustomPhotoAlbum.framework'>

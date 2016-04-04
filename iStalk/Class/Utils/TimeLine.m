@@ -66,7 +66,7 @@
 }
 
 + (instancetype)instagramTimeLine:(id)params {
-    TimeLine *timeline = [TimeLine new];
+    TimeLine *timeline;
     
     timeline = [TimeLine new];
     timeline.commentsArray = [NSMutableArray new];
